@@ -1,3 +1,13 @@
 {
-"explore_now":"استكشف الان"
+"explore_now":"استكشف الان",
+"register":"تسجيل حساب",
+"name":"اسم",
+"email":"حساب الكتروني",
+"password":"كلمة المرور",
+"confirm_password":"تأكيد كلمة المرور",
+"phone_number":"رقم الهاتف",
+"create_account":"انشاء حساب",
+"already_have_account":"لديك حساب بالفعل",
+"login":"تسجيل دخول",
+"avatar":"شخصية"
 }

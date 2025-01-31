@@ -37,6 +37,10 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
+  provider: ^6.1.2
+  toggle_switch: ^2.3.0
+  carousel_slider: ^5.0.0
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
