@@ -3,6 +3,15 @@
 "pick_avatar" : "Pick Avatar",
 "reset_password" : "Reset Password",
 "delete_account" : "Delete Account",
-"update_data" : "Update Data"
-
+"update_data" : "Update Data",
+"name":"Name",
+"email":"Email",
+"password":"Password",
+"confirm_password":"Confirm Password",
+"phone_number":"Phone Number",
+"create_account":"Create Account",
+"already_have_account":"Already Have Account",
+"login":"Login",
+"register":"Register",
+"avatar":"Avatar"
 }

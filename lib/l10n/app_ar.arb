@@ -3,5 +3,15 @@
 "pick_avatar" : "اختر افاتار",
 "reset_password" : "اعادة تعين كلمة المرور ",
 "delete_account" : "حذف الحساب ",
-"update_data" : "تحديث الحساب "
+"update_data" : "تحديث الحساب ",
+"name":"اسم",
+"email":"حساب الكتروني",
+"password":"كلمة المرور",
+"confirm_password":"تأكيد كلمة المرور",
+"phone_number":"رقم الهاتف",
+"create_account":"انشاء حساب",
+"already_have_account":"لديك حساب بالفعل",
+"login":"تسجيل دخول",
+"register":"تسجيل الحساب",
+"avatar":"افاتار"
 }
