@@ -1,3 +1,7 @@
 {
-"explore_now":"استكشف الان"
+"explore_now":"استكشف الان",
+"pick_avatar" : "اختر افاتار",
+"reset_password" : "اعادة تعين كلمة المرور ",
+"delete_account" : "حذف الحساب ",
+"update_data" : "تحديث الحساب "
 }
