@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'app_colors.dart';
 
-import 'package:movies/app%20utils/app_colors.dart';
+
+
 class AppTextStyle {
   static TextStyle? regular20Black = TextStyle(
       color: AppColors.black, fontSize: 20, fontWeight: FontWeight.w400);
@@ -16,6 +18,8 @@ class AppTextStyle {
       color: AppColors.gray, fontSize: 20, fontWeight: FontWeight.w700);
   static TextStyle? regular16White = TextStyle(
       color: AppColors.white, fontSize: 16, fontWeight: FontWeight.w400);
+  static TextStyle? regular14White = TextStyle(
+      color: AppColors.white, fontSize: 14, fontWeight: FontWeight.w400);
   static TextStyle? regular20White = TextStyle(
       color: AppColors.white, fontSize: 20, fontWeight: FontWeight.w400);
   static TextStyle? medium36White = TextStyle(
