@@ -127,10 +127,10 @@ class _UpdateProfileState extends State<UpdateProfile> {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15))),
                     child: Text(
-                      AppLocalizations.of(context)!.update_data,
-                      style: AppTextStyle.regular20Black),
-                    ),
+                        AppLocalizations.of(context)!.update_data,
+                        style: AppTextStyle.regular20Black),
                   ),
+                ),
 
               ],
             ),
@@ -164,28 +164,28 @@ class _UpdateProfileState extends State<UpdateProfile> {
                 itemCount: avatars.length,
                 itemBuilder: (context, index) {
                   return GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        selectedAvatar = avatars[index];
-                      });
-                      Navigator.pop(context);
-                    },
-                    child:  Container(
+                      onTap: () {
+                        setState(() {
+                          selectedAvatar = avatars[index];
+                        });
+                        Navigator.pop(context);
+                      },
+                      child:  Container(
 
-                    decoration: BoxDecoration(
-                    color: Colors.grey[800],
-                  borderRadius: BorderRadius.circular(10),
-                  border: Border.all(color: Colors.yellow, width: 2),
-                  ),
-                  child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Image.asset(
+                        decoration: BoxDecoration(
+                          color: Colors.grey[800],
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(color: Colors.yellow, width: 2),
+                        ),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.asset(
 
-                  avatars[index],
-                  fit: BoxFit.cover, // Ensures the image fills the square
-                  ),
-                  ),
-                  )
+                            avatars[index],
+                            fit: BoxFit.cover, // Ensures the image fills the square
+                          ),
+                        ),
+                      )
                   );
                 },
               ),
