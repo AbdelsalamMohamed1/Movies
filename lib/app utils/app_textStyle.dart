@@ -1,8 +1,7 @@
-import 'dart:ui';
+import 'package:flutter/material.dart';
 
 import 'package:movies/app%20utils/app_colors.dart';
-
-class AppTextstyle {
+class AppTextStyle {
   static TextStyle? regular20Black = TextStyle(
       color: AppColors.black, fontSize: 20, fontWeight: FontWeight.w400);
   static TextStyle? semiBold20Black = TextStyle(

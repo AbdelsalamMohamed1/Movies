@@ -1,3 +1,8 @@
 {
-"explore_now":"Explore Now"
+"explore_now":"Explore Now",
+"pick_avatar" : "Pick Avatar",
+"reset_password" : "Reset Password",
+"delete_account" : "Delete Account",
+"update_data" : "Update Data"
+
 }
