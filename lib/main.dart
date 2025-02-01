@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:movies/home%20screen/home_screen.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:movies/register/register_screen.dart';
 import 'package:movies/update_profile/update_profile.dart';
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: UpdateProfile.routeName,
+      initialRoute: RegisterScreen.routeName,
       routes: {
         UpdateProfile.routeName: (context) => UpdateProfile(),
         RegisterScreen.routeName:(context)=>RegisterScreen(),

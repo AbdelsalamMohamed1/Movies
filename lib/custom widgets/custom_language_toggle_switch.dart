@@ -18,36 +18,37 @@ class _CustomLanguageToggleSwitchState
   var screen=MediaQuery.of(context).size;
     return Center(
       child: ToggleSwitch(
-        minWidth: screen.width*.15,
-        initialLabelIndex: 1,
+        minWidth: screen.width*(48/430),
         cornerRadius: 30.0,
-        activeBgColor: [Colors.transparent],
-        inactiveBgColor: Colors.transparent,
+        activeBgColors: [
+          [AppColors.yellow],
+          [AppColors.yellow]
+        ],
+        activeFgColor: AppColors.black,
+        inactiveBgColor: AppColors.black,
+        inactiveFgColor: AppColors.black,
+        initialLabelIndex: 1,
+        totalSwitches: 2,
+        borderWidth: 2.0,
         borderColor: [AppColors.yellow],
-        borderWidth: 2,
-        animate: true,
-
+        labels: ['True', 'False'],
+        radiusStyle: true,
+        onToggle: (index) {
+          print('switched to: $index');
+        },
         customWidgets: [
           CircleAvatar(
-              backgroundColor:
-                  (selectedIndex == 0) ? AppColors.yellow : Colors.transparent,
-              minRadius: 9,
-              child: Image(
-                image: AssetImage('assets/images/ic_eng.png'),
-              )),
+
+            child: Image.asset(
+              "assets/images/ic_eng.png",
+            ),
+          ),
           CircleAvatar(
-              backgroundColor:
-                  (selectedIndex == 1) ? AppColors.yellow : Colors.transparent,
-              minRadius: 9,
-              child: Image(
-                image: AssetImage('assets/images/ic_ar.png'),
-              ))
+            child: Image.asset(
+              "assets/images/ic_ar.png",
+            ),
+          ),
         ],
-        onToggle: (index) {
-          selectedIndex = index!;
-          print('switched to: $index');
-          setState(() {});
-        },
       ),
     );
   }
