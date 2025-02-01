@@ -4,6 +4,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:movies/register/register_screen.dart';
 import 'package:movies/update_profile/update_profile.dart';
 
+// TEST
 void main() {
   runApp(MyApp());
 }
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: UpdateProfile.routeName,
       routes: {
         UpdateProfile.routeName: (context) => UpdateProfile(),
-        RegisterScreen.routeName:(context)=>RegisterScreen(),
+        RegisterScreen.routeName: (context) => RegisterScreen(),
       },
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
